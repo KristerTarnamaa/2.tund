@@ -24,3 +24,13 @@
 	echo "õnne";
 	
 ?>
+
+<br>
+
+<?php
+
+	echo date('d.m.Y - l h:i:s A ' )
+
+
+
+?>
