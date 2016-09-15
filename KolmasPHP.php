@@ -21,8 +21,14 @@
 		if (empty ($_POST["SignupPassword"])) {
 			
 			$signupPasswordError = "V2li on kohustuslik";
+		} else {
+		if (strlen($_POST["SignupPassword"])<8 ) {
+			$signupPasswordError = "Parool peab olema vähemalt 8 tähemärki";
+		} else {
+			$signupPasswordError = "Kõik on hästi";
 		}
 	}
+		}
 		if (isset ($_POST["LoginEmail"])){
 		
 		if (empty ($_POST["LoginEmail"])) {
