@@ -47,7 +47,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Sisselogimise leht</title>
+		<title> Sisselogimise katsetamiseks leht</title>
 	</head>
 	<body>
 
